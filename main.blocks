@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Wm-aQXy{oXn5WF]`L)Tu">mySprite</variable><variable type="KIND_SpriteKind" id="}$BlV(}Vigxc~0s3iEI,">Player</variable><variable type="KIND_SpriteKind" id="`3?lHT@4I%1AD!|w))tP">Projectile</variable><variable type="KIND_SpriteKind" id="#bXjCnq1T/V0|+NXO)SO">Food</variable><variable type="KIND_SpriteKind" id="QGQr9bi9p2Y8*f:q*Xhj">Enemy</variable></variables><block type="pxt-on-start" id="ZMx-31p9{QE)k3J(w!lc" x="290" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="atl?mL)eGu7+F^ul/@j9"><value name="color"><shadow type="colorindexpicker" id="5sf;FSRR2XXpF7aVFp(g"><field name="index">9</field></shadow></value><next><block type="variables_set" id="m8fV/GH)GH8F=ZqOexv-"><field name="VAR" id="Wm-aQXy{oXn5WF]`L)Tu">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="|!5$c{-?Tu`[Ruuh9OYS"><value name="img"><shadow type="screen_image_picker" id="79]tukP`4S*tOumSqO^#"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . 3 . . . . . . . . 
+. . . . . . . 3 3 . . . . . . . 
+. . . . 3 3 3 3 3 3 . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . 3 . 3 . . . . . . . 
+. . . . . 3 . . . 3 . . . . . . 
+. . . . . . 3 3 3 . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="5[i8z]K!~,(Xv9X%sal4"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block><block type="gameSplash" id="IT?OwCnx)r%wd`YUlOvz" disabled="true" x="0" y="130"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="title"><shadow type="text" id="U[{C2HI/7)HrbpE?/HET" disabled="true"><field name="TEXT">Oh Yah Lets Make a Game</field></shadow></value></block><block type="keyonevent" id="^VTBHi]CLB.6Ih~G(Gq9" x="300" y="230"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="startEffectOnSprite" id="i+!?Sw,$Y%09XbY~i.v$"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="effect">effects.spray</field><value name="sprite"><block type="variables_get" id="p|=WDp`mE%gCiHZM|FYX"><field name="VAR" id="Wm-aQXy{oXn5WF]`L)Tu">mySprite</field></block></value><next><block type="spritesay" id="n!A})rcI5py%c}-GsV5="><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="zI[X8rbk2o)6Ko*$r@nI"><field name="VAR" id="Wm-aQXy{oXn5WF]`L)Tu">mySprite</field></block></value><value name="text"><shadow type="text"><field name="TEXT">:)</field></shadow><block type="gameaskfornumber" id="sPi=wB5sdF#B;3KKUKHz"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="message"><shadow type="text" id="ZkRPX;gZcoQ]ERm^?+2/"><field name="TEXT">5</field></shadow></value></block></value></block></next></block></statement></block></xml>
